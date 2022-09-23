@@ -1,0 +1,499 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.firstdiv {
+    display: flex;
+    /* border: solid 2px blue; */
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.logo {
+    width: 80px;
+}
+
+.menu {
+    display: flex;
+}
+
+.nav {
+    background-color: white; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+  
+  .nav li a {
+    display: block;
+    padding: 8px;
+    color: rgb(62, 60, 60);
+    text-decoration: none;
+  }
+
+  .nav li a:hover {
+    background-color: rgb(233, 129, 38);
+    color: white;
+    border-radius: 10px;
+  }
+
+
+
+  .btn {
+    padding: 12px 12px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(233, 129, 38);
+    height: 50px;
+   
+  }
+
+
+
+.seconddiv {
+    /* border: solid 2px green; */
+    /* width: 90%;
+    max-width: 620px; */
+    height: 550px;
+}
+
+.row-1 {
+   /* border: solid 3px red; */
+   width: 1250px;
+   height: 500px;
+   margin: auto;
+   
+   display: flex;
+   
+  
+}
+
+.title {
+  color: #000;
+  width: 400px;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 40px;
+}
+
+.title > button {
+  background-color: rgb(233, 129, 38);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  border-color: white;
+  
+}
+
+.small-card-wrapper{
+  background-color: red;
+  border: solid 2px white;
+  width: 220px;
+}
+
+.small-card {
+  display: flex;
+  background-color: white;
+}
+
+
+.small-card-image-content , .small-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+  border: solid 2px red;
+}
+
+
+.small-card-image-content  {
+  row-gap: 5px;
+}
+
+.small-card-image {
+  position: relative;
+  
+  border-radius: 50%;
+  /* background: #fff; */
+  padding: 3px;
+}
+
+.small-card-image .small-card-img {
+  
+  width: 30px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+  border: 4px solid Blue;
+}
+
+
+.small-card-content > .name {
+  font-size: 12px;
+  font-weight: 800;
+  color: #333;
+ 
+}
+
+
+.small-card-content > .description {
+  font-size: 8px;
+  color: #707070;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/* Section Two */
+
+.section-two {
+  /* border: solid 2px blue; */
+  width: 80%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.row-3 {
+ font-size: 18px;
+}
+
+.card-wrapper-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-two {
+  
+  display: flex;
+  border-radius: 10px;
+  /* border: solid 2px rgb(122, 119, 119); */
+  
+  width: 200px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-image-two > img {
+  border-radius: 10px;
+  
+}
+
+
+
+
+
+.row-4 {
+  display: flex;
+  border: solid 2px purple;
+}
+
+/* Section Three */
+.section-three {
+  /* border: solid 2px olivedrab; */
+  height: 150px;
+}
+
+.Home {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.home-2 {
+  text-align: center;
+  color: #707070;
+}
+
+/* Section Four */
+.section-four {
+  /* border: solid 2px violet; */
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+
+.card {
+  margin: 30px;
+}
+
+.card-icon {
+  width: 50px;
+}
+
+
+.section-five {
+  border: solid 2px brown;
+}
+
+.brows-card {
+  
+  display: flex;
+}
+
+.section-five {
+  display: flex;
+  background: wheat;
+  flex-wrap: wrap;
+}
+
+/* Section Six */
+
+
+.section-six {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.col-5 {
+  background-color: white;
+  width: 40%;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.col-5 > h1 {
+  font-weight: 600;
+}
+
+.col-5 > p {
+  
+  color: #707070;
+}
+
+/* End of Section Six */
+
+.brows-card-1, .brows-card-2,.brows-card-3,.brows-card-4 {
+  background-color: orange;
+  border: solid 2px black;
+  height: 100px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+/* Slide Card CSS----------- */
+
+.section-seven {
+  border: solid 2px blueviolet;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+
+}
+
+.slide-content {
+  margin: 0 40px;
+}
+
+.card {
+  border-radius: 25px;
+  background-color: #fff;
+  width: 200px;
+}
+
+.image-content, .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+.image-content {
+  row-gap: 5px;
+}
+
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* border-radius: 50%; */
+  /* border: 4px solid Blue; */
+}
+
+.name {
+  font-size: 12px;
+  font-weight: 800;
+  color: #333;
+}
+
+.description {
+  font-size: 8px;
+  color: #707070;
+  text-align: center;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 800;
+  color: #333;
+  
+}
+
+
+
+/* End of Card --------------*/
+
+.seeall-btn {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Section Eight */
+.section-eight {
+  display: flex;
+  justify-content: center;
+}
+
+.col-8  {
+  background-color: white;
+  width: 40%;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+.col-8 > h1 {
+  font-weight: 600;
+}
+
+.col-8 > p {
+  
+  color: #707070;
+}
+
+/* SECTION NINE */
+
+.section-nine {
+  display: flex;
+  height: 250px;
+  background-color: yellow;
+}
+
+/* SECTION TEN */
+
+
+.section-ten {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.col-10 {
+  background-color: white;
+  width: 40%;
+  border-radius: 10px;
+  text-align: center;
+  
+  
+}
+
+.col-10 > h1 {
+  font-weight: 600;
+}
+
+.col-10 > p {
+  
+  color: #707070;
+}
+
+
+.col-11{
+  background-color: red;
+}
+
+/* SECTION ELEVEN */
+
+
+/* SECTION TWELVE */
+
+ 
+  .section-twelve {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .col-12 {
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+  
+  .col-12 > h1 {
+    font-weight: 600;
+  }
+  
+  .col-12 > p {
+    
+    color: #707070;
+  }
+
+
+/* SECTION THIRTEEN */
+
+
+
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border-top-style: solid;
+  border-color: rgb(193, 185, 185);
+  color: rgb(131, 128, 128);
+  
+}
+
+
